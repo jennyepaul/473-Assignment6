@@ -7,20 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace JennyCasey_Assign6
 {
-    public partial class Form1 : Form
+    //This class is the Form that will contain the first graph!
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        //Event -> upon clicking the "Exit" button, the application will close 
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
