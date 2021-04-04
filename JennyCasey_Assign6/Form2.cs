@@ -11,7 +11,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace JennyCasey_Assign6
 {
-    //This class is the Form that will contain the first graph!
+    //This class is the Form that will contain the first chart!
     public partial class Form2 : Form
     {
         public Form2()

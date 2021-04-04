@@ -12,7 +12,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace JennyCasey_Assign6
 {
-    //This form class contains the third graph!
+    //This form class contains the third chart!
     public partial class Form3 : Form
     {
         public Form3()
