@@ -17,8 +17,6 @@ namespace JennyCasey_Assign6
         public Form1()
         {
             InitializeComponent();
-            //if the user clicks the "X" in the upper right corner, then exit application
-            this.FormClosing += Form1_FormClosing;
         }
 
         //Event -> upon clicking the "Exit" button, the application will close 
@@ -39,13 +37,6 @@ namespace JennyCasey_Assign6
             //when user clicks on the second chart button, then hide the portal form and show the form for the first chart
             new Form3().Show();
             this.Hide();
-        }
-
-        //Event -> when the user clicks the upper right X of the form, we will exit the application completely 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            //the form has been closed out, so exit application
-            Application.Exit();
         }
     }
 }
