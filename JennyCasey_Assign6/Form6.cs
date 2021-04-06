@@ -38,13 +38,12 @@ namespace JennyCasey_Assign6
                 while ((word = inFile.ReadLine()) != null)
                 {
                     //determine if the value is a x or y value and add them to list
-                    if (counter % 2 == 1 && int.Parse(word) > 0)
+                    if (counter % 2 == 1)
                     {
                         XValue.Add(int.Parse(word));
-                        
                     }
                     else 
-                    {
+                    {                      
                         YValue.Add(int.Parse(word));
                     }
                     counter++;
