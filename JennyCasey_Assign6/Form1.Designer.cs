@@ -29,6 +29,7 @@ namespace JennyCasey_Assign6
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.exitButton = new System.Windows.Forms.Button();
@@ -36,6 +37,10 @@ namespace JennyCasey_Assign6
             this.graph2Button = new System.Windows.Forms.Button();
             this.graph3Button = new System.Windows.Forms.Button();
             this.graph4Button = new System.Windows.Forms.Button();
+            this.chart1Label = new System.Windows.Forms.Label();
+            this.chart2Label = new System.Windows.Forms.Label();
+            this.chart1Description = new System.Windows.Forms.ToolTip(this.components);
+            this.chart2Description = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -56,10 +61,11 @@ namespace JennyCasey_Assign6
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(539, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Please click a button below to view different graphs!";
+            this.label2.Text = "Please click a button below to view different charts!";
             // 
             // exitButton
             // 
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.ForeColor = System.Drawing.Color.Black;
             this.exitButton.Location = new System.Drawing.Point(13, 13);
             this.exitButton.Name = "exitButton";
@@ -76,8 +82,11 @@ namespace JennyCasey_Assign6
             this.graph1Button.Name = "graph1Button";
             this.graph1Button.Size = new System.Drawing.Size(98, 42);
             this.graph1Button.TabIndex = 3;
-            this.graph1Button.Text = "Graph ";
+            this.graph1Button.Text = "Chart 1";
+            this.chart1Description.SetToolTip(this.graph1Button, "This chart shows the number of gems acquired by a single player per each game (10" +
+        " games)");
             this.graph1Button.UseVisualStyleBackColor = true;
+            this.graph1Button.Click += new System.EventHandler(this.graph1Button_Click);
             // 
             // graph2Button
             // 
@@ -86,8 +95,11 @@ namespace JennyCasey_Assign6
             this.graph2Button.Name = "graph2Button";
             this.graph2Button.Size = new System.Drawing.Size(98, 42);
             this.graph2Button.TabIndex = 4;
-            this.graph2Button.Text = "Graph ";
+            this.graph2Button.Text = "Chart 2";
+            this.chart2Description.SetToolTip(this.graph2Button, "This chart shows the scores acquired by 4 student\'s for each of the 10 tests they" +
+        " took during the semester");
             this.graph2Button.UseVisualStyleBackColor = true;
+            this.graph2Button.Click += new System.EventHandler(this.graph2Button_Click);
             // 
             // graph3Button
             // 
@@ -109,12 +121,34 @@ namespace JennyCasey_Assign6
             this.graph4Button.Text = "Graph ";
             this.graph4Button.UseVisualStyleBackColor = true;
             // 
+            // chart1Label
+            // 
+            this.chart1Label.AutoSize = true;
+            this.chart1Label.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chart1Label.Location = new System.Drawing.Point(102, 343);
+            this.chart1Label.Name = "chart1Label";
+            this.chart1Label.Size = new System.Drawing.Size(116, 17);
+            this.chart1Label.TabIndex = 7;
+            this.chart1Label.Text = "Column Chart";
+            // 
+            // chart2Label
+            // 
+            this.chart2Label.AutoSize = true;
+            this.chart2Label.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chart2Label.Location = new System.Drawing.Point(300, 343);
+            this.chart2Label.Name = "chart2Label";
+            this.chart2Label.Size = new System.Drawing.Size(98, 17);
+            this.chart2Label.TabIndex = 8;
+            this.chart2Label.Text = "Line Chart";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(901, 516);
+            this.Controls.Add(this.chart2Label);
+            this.Controls.Add(this.chart1Label);
             this.Controls.Add(this.graph4Button);
             this.Controls.Add(this.graph3Button);
             this.Controls.Add(this.graph2Button);
@@ -139,6 +173,10 @@ namespace JennyCasey_Assign6
         private System.Windows.Forms.Button graph2Button;
         private System.Windows.Forms.Button graph3Button;
         private System.Windows.Forms.Button graph4Button;
+        private System.Windows.Forms.Label chart1Label;
+        private System.Windows.Forms.ToolTip chart1Description;
+        private System.Windows.Forms.Label chart2Label;
+        private System.Windows.Forms.ToolTip chart2Description;
     }
 }
 
