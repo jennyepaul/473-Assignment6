@@ -110,6 +110,7 @@ namespace JennyCasey_Assign6
             this.graph3Button.TabIndex = 5;
             this.graph3Button.Text = "Graph ";
             this.graph3Button.UseVisualStyleBackColor = true;
+            this.graph3Button.Click += new System.EventHandler(this.graph3Button_Click);
             // 
             // graph4Button
             // 
@@ -120,6 +121,7 @@ namespace JennyCasey_Assign6
             this.graph4Button.TabIndex = 6;
             this.graph4Button.Text = "Graph ";
             this.graph4Button.UseVisualStyleBackColor = true;
+            this.graph4Button.Click += new System.EventHandler(this.graph4Button_Click);
             // 
             // chart1Label
             // 
