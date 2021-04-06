@@ -10,3 +10,15 @@ C:\Users\jenny\Desktop\473-Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_A
 C:\Users\jenny\Desktop\473-Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.pdb
 C:\Users\jenny\Desktop\473-Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form2.resources
 C:\Users\jenny\Desktop\473-Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form3.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\bin\Debug\JennyCasey_Assign6.exe.config
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\bin\Debug\JennyCasey_Assign6.exe
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\bin\Debug\JennyCasey_Assign6.pdb
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.csprojAssemblyReference.cache
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form1.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form2.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form3.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Properties.Resources.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.csproj.GenerateResource.cache
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.csproj.CoreCompileInputs.cache
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.exe
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.pdb

@@ -38,5 +38,17 @@ namespace JennyCasey_Assign6
             new Form3().Show();
             this.Hide();
         }
+
+        private void graph3Button_Click(object sender, EventArgs e)
+        {
+            Form6 frm6 = new Form6();
+            frm6.Show();
+        }
+
+        private void graph4Button_Click(object sender, EventArgs e)
+        {
+            Form7 frm7 = new Form7();
+            frm7.Show();
+        }
     }
 }
