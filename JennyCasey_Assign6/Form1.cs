@@ -17,6 +17,14 @@ namespace JennyCasey_Assign6
         public Form1()
         {
             InitializeComponent();
+
+            //if the user clicks the "X" in the upper right corner, then exit out of the form
+            this.FormClosing += Form1_FormClosing;
+        }
+        //Event -> when the user clicks the upper right X of the form, we will exit out of the form
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
         }
         //Event -> upon clicking the "Exit" button, the application will close 
         private void exitButton_Click(object sender, EventArgs e)

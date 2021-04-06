@@ -118,7 +118,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="GradePercentsOnAssigns.txt" />
-    <Content Include="LoLMinionKills.txt" />
+    <Content Include="LoLGemsAcquired.txt" />
     <Content Include="Form6Input.txt" />
     <Content Include="Form7Input.txt" />
   </ItemGroup>
