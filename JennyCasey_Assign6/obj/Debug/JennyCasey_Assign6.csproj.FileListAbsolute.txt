@@ -22,3 +22,5 @@ C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\Jenn
 C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.csproj.CoreCompileInputs.cache
 C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.exe
 C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.pdb
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form6.resources
+C:\Users\casey\Desktop\CSCI 473504\Assignment6\JennyCasey_Assign6\obj\Debug\JennyCasey_Assign6.Form7.resources

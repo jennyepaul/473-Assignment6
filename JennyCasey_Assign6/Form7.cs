@@ -19,11 +19,13 @@ namespace JennyCasey_Assign6
             InitializeComponent();
         }
 
+        //Event -> Once the Form has loaded call fill chart to fill chart 4
         private void Form5_Load(object sender, EventArgs e)
         {
             fillChart();
         }
 
+        //Event -> Using the Contents from the input file create a pie chart and fill it with the datapoints given in the input file
         private void fillChart()
         {
             string word;
@@ -102,6 +104,14 @@ namespace JennyCasey_Assign6
                 this.StudentGrades.Series.Add(series1);
             }
 
+        }
+
+        //Event -> When clicked this button returns the user to the portal and closes the chart 4
+        private void ReturnButton7_Click(object sender, EventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
         }
     }
 }
