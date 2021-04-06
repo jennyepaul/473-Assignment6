@@ -41,6 +41,10 @@ namespace JennyCasey_Assign6
             this.chart2Label = new System.Windows.Forms.Label();
             this.chart1Description = new System.Windows.Forms.ToolTip(this.components);
             this.chart2Description = new System.Windows.Forms.ToolTip(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.Chart3Description = new System.Windows.Forms.ToolTip(this.components);
+            this.Chart4Description = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // label1
@@ -109,6 +113,8 @@ namespace JennyCasey_Assign6
             this.graph3Button.Size = new System.Drawing.Size(98, 42);
             this.graph3Button.TabIndex = 5;
             this.graph3Button.Text = "Graph ";
+            this.Chart3Description.SetToolTip(this.graph3Button, "This is a scatter plot that shows the coorilation between that amount od hours a " +
+        "student studys and their grade in the class.");
             this.graph3Button.UseVisualStyleBackColor = true;
             this.graph3Button.Click += new System.EventHandler(this.graph3Button_Click);
             // 
@@ -120,6 +126,8 @@ namespace JennyCasey_Assign6
             this.graph4Button.Size = new System.Drawing.Size(98, 42);
             this.graph4Button.TabIndex = 6;
             this.graph4Button.Text = "Graph ";
+            this.Chart4Description.SetToolTip(this.graph4Button, "This is a Pie Chart that displays the percentage of people with each grade in a c" +
+        "ourse of 18 students.");
             this.graph4Button.UseVisualStyleBackColor = true;
             this.graph4Button.Click += new System.EventHandler(this.graph4Button_Click);
             // 
@@ -143,12 +151,34 @@ namespace JennyCasey_Assign6
             this.chart2Label.TabIndex = 8;
             this.chart2Label.Text = "Line Chart";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(477, 343);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 17);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Scatter Chart";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Courier New", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(672, 343);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(89, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Pie Chart";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(901, 516);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.chart2Label);
             this.Controls.Add(this.chart1Label);
             this.Controls.Add(this.graph4Button);
@@ -179,6 +209,10 @@ namespace JennyCasey_Assign6
         private System.Windows.Forms.ToolTip chart1Description;
         private System.Windows.Forms.Label chart2Label;
         private System.Windows.Forms.ToolTip chart2Description;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolTip Chart3Description;
+        private System.Windows.Forms.ToolTip Chart4Description;
     }
 }
 
