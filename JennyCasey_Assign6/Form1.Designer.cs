@@ -112,7 +112,7 @@ namespace JennyCasey_Assign6
             this.graph3Button.Name = "graph3Button";
             this.graph3Button.Size = new System.Drawing.Size(98, 42);
             this.graph3Button.TabIndex = 5;
-            this.graph3Button.Text = "Graph ";
+            this.graph3Button.Text = "Chart 3";
             this.Chart3Description.SetToolTip(this.graph3Button, "This is a scatter plot that shows the coorilation between that amount od hours a " +
         "student studys and their grade in the class.");
             this.graph3Button.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@ namespace JennyCasey_Assign6
             this.graph4Button.Name = "graph4Button";
             this.graph4Button.Size = new System.Drawing.Size(98, 42);
             this.graph4Button.TabIndex = 6;
-            this.graph4Button.Text = "Graph ";
+            this.graph4Button.Text = "Chart 4";
             this.Chart4Description.SetToolTip(this.graph4Button, "This is a Pie Chart that displays the percentage of people with each grade in a c" +
         "ourse of 18 students.");
             this.graph4Button.UseVisualStyleBackColor = true;

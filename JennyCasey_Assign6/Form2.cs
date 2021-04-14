@@ -54,7 +54,7 @@ namespace JennyCasey_Assign6
         {
             //go to the file and extract the X and Y points
             string line;
-            using (StreamReader inFile = new StreamReader("../../LoLMinionKills.txt"))
+            using (StreamReader inFile = new StreamReader("../../LoLGemsAcquired.txt"))
             {
                 while ((line = inFile.ReadLine()) != null)
                 {
