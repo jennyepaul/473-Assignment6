@@ -113,5 +113,13 @@ namespace JennyCasey_Assign6
             frm1.Show();
             this.Hide();
         }
+
+        //Event -> When the user clicks the "x" button the user will be returned to the portal
+        private void Form7_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Form1 frm1 = new Form1();
+            frm1.Show();
+            this.Hide();
+        }
     }
 }
